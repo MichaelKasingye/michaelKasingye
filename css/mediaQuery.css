@@ -26,9 +26,12 @@
     }
     .mediaQuery-navbar {
       display: inline;
-      /* padding-left: -9rem; */
+      
     }
-  
+    .mediaQuery-navbar ul {
+      font-size: 10px;
+      padding-right:1rem;
+    }
     .projects{
       max-width: 100%;
     }
