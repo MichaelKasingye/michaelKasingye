@@ -56,6 +56,28 @@ h3 {
   font-size: 1rem;
   border-bottom: 1px solid;
 }
+.welcome_paragraph{
+  margin-top: 2rem;
+  padding: 5px;
+}
+.welcome_paragraph a{
+  border: 1px solid gainsboro;
+  border-radius: 4px;
+  color: black;
+  font-weight: bolder;
+  background-color: gainsboro;
+  padding: 5px;
+}
+.welcome_paragraph a:hover{
+  background-color: black;
+  color: gainsboro;
+}
+.welcome_paragraph a:active{
+  background-color: gainsboro;
+  color: black;
+}
+
+
 .projects{
   background-color: #eee;
 }
