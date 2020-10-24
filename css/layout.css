@@ -96,8 +96,7 @@ header {
   margin: 0;
   }
 .container{
-  border: 2px solid black;
-
+  /* border: 2px solid black; */
   text-align: center;
   height: 70vh;
   display: flex;
