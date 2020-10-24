@@ -1,0 +1,94 @@
+@import url("./layout.css");
+@import url("./mediaQuery.css");
+@import url("./transitions.css");
+html {
+  scroll-behavior: smooth;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400&display=swap");
+body {
+  /* background-color: #eee; */
+  background-color: black;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.navbar {
+  background-color: black;
+}
+.navbar_color {
+  background-color: black;
+  opacity: 0.7;
+}
+.navbar a {
+  color: whitesmoke;
+  padding: 5px;
+}
+h3 {
+  color: #535c68;
+}
+
+.logo a {
+  font-weight: bold;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  color: black;
+  font-family: arial;
+  letter-spacing: 5px;
+}
+
+.welcome-section {
+   color: gainsboro;
+}
+.welcome-section-heading {
+  font-size: 1.5rem;
+}
+.welcome-section-introduction {
+  font-size: 1rem;
+  border-bottom: 1px solid;
+}
+.projects{
+  background-color: #eee;
+}
+/* projects */
+.project-info {
+  color: #636e72;
+  letter-spacing: 1px;
+}
+/* about */
+.about {
+  background-color: #b2bec3;
+  color: #636e72;
+}
+
+.contact_container {
+  color: #636e72;
+  background-color: #eee;
+}
+.button{
+  color:#636e72 ;
+}
+/* contact */
+.contact-links {
+  font-size: 1rem;
+  word-spacing: 1.4rem;
+}
+.contact-links a {
+  color: blue;
+}
+.footer {
+  background-color: #b2bec3;
+  color: #636e72;
+}
+.footer a {
+  color: #636e72;
+}
