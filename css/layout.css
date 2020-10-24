@@ -93,6 +93,13 @@ header {
     margin: 0;
   }
   .contact_container {
+  /* border: 2px solid black; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   margin: 0;
   }
 .container{
@@ -104,6 +111,7 @@ header {
   justify-content: center;
   align-items: center;
   padding: 30px 0;
+  width: 100%;
 
 }
 .container_2{
