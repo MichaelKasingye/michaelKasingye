@@ -28,6 +28,7 @@
       display: inline;
       
     }
+    
     .mediaQuery-navbar ul {
       font-size: 10px;
       padding-right:1rem;
@@ -41,6 +42,19 @@
       align-items: center;
       flex-wrap: wrap;
       overflow: hidden;
+    }
+
+    button{
+      border: none;
+      font-weight: bolder;
+      letter-spacing: 2px;
+      padding: 10px;
+    }
+    button:active{
+      background-color:white;
+      color:#636e72 ;
+      padding: 10px;
+
     }
   }
   @media (min-width: 650px) {
