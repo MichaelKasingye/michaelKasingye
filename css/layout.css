@@ -162,7 +162,7 @@ input:focus{
   outline-width:0 ;
 }
 .the_recaptcha{
-  height: 2rem;
+  height: 1rem;
   margin:0;
 }
 .form_container button{
