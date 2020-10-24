@@ -48,12 +48,10 @@
       border: none;
       font-weight: bolder;
       letter-spacing: 2px;
-      padding: 10px;
     }
     button:active{
       background-color:white;
       color:#636e72 ;
-      padding: 10px;
 
     }
   }
